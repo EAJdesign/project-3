@@ -1,0 +1,113 @@
+<!DOCTYPE>
+<html>
+
+<style>
+/*global */
+html, body, h1, h2, h3, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+clearfix {
+  overflow: auto;
+}
+
+/*typography*/
+body {
+  font-family: sans-serif;
+}
+html { font-size: 10px; }
+header .logo { font-size: 5rem; }
+header .nav-top { font-size: 1.2rem; }
+header .address { font-size: 1.2rem;}
+
+
+/*header*/
+header {
+  background-color: #ffffff;
+  opacity: 50%;
+}
+header .logo {
+  text-align: center;
+  margin: 2px 0;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 150%;
+}
+
+/* navigation */
+.nav-top {
+  text-align: center;
+}
+
+
+.nav-top ul {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.nav-top li {
+  display: inline-block;
+  padding: 40px 3%;
+}
+
+/*nav image*/
+.nav-img {
+  padding: 20px;
+  margin: auto 0;
+}
+
+.nav-about {
+  padding: 10px;
+}
+
+.nav-menus {
+  padding: 10px;
+}
+
+.nav-contact {
+  padding: 10px;
+}
+
+@media screen and (min-width: 700px) {
+  .logo {
+    float: left;
+  }
+  
+}
+
+.menu_img {
+  width: 200px;
+
+}
+
+
+</style>
+
+
+<header class="clearfix">
+  <nav class="nav-top">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Menus</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+      <h1 class="logo">Sophia's Grotto</h1>
+      <p class="address">22 Birch Street .  Roslindale, MA  .  617-323-4595</p>
+  </nav>
+</header>
+
+  <div class="nav-img">
+      <div class="nav-about"><img src="./IMG/about.jpg" alt="Sophia's Grotto Sign" width="100%"></div>
+      <div class="nav-menus"><img src="./IMG/menus.jpg" alt="pasta jar" width="100%"></div>
+      <div class="nav-contact"><img src="./IMG/contact.jpg" alt="exterior photo" width="100%"></div>
+  </div>
+  
+</html>

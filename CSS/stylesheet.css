@@ -1,0 +1,56 @@
+/*global */
+html, body, h1, h2, h3, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+clearfix {
+  overflow: auto;
+}
+
+/*typography*/
+body {
+  font-family: sans-serif;
+}
+html { font-soze: 10px; }
+header .logo { font-size: 3.6rem; }
+header .nav-top { font-size: 1.2rem; }
+
+/*header*/
+header {
+  background-color: #aaa;
+}
+header .logo {
+  text-align: center;
+  margin: 2px 0;
+}
+header a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* navigation */
+.nav-top {
+  text-align: center;
+}
+
+.nav-top ul {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.nav-top li {
+  display: inline-block;
+  padding: 40px 3%;
+}
+
+@media screen and (min-width: 700px) {
+  .logo {
+    float: left;
+  }
+  
+}
