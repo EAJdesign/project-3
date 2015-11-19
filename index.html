@@ -20,9 +20,10 @@ clearfix {
 body {
   font-family: sans-serif;
 }
+
 html { font-size: 10px; }
-header .logo { font-size: 5rem; }
-header .nav-top { font-size: 1.2rem; }
+header .logo { font-size: 4.25rem;}
+header .nav-top { font-size: 1.4rem;}
 header .address { font-size: 1.2rem;}
 
 
@@ -30,15 +31,24 @@ header .address { font-size: 1.2rem;}
 header {
   background-color: #ffffff;
   opacity: 50%;
+  padding: 30px;
+  max-width: ;
 }
 header .logo {
   text-align: center;
-  margin: 2px 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 header a {
   text-decoration: none;
   color: black;
   font-size: 150%;
+}
+
+header .address {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* navigation */
@@ -61,6 +71,9 @@ header a {
 .nav-img {
   padding: 20px;
   margin: auto 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav-about {
@@ -75,10 +88,12 @@ header a {
   padding: 10px;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 900px) {
   .logo {
     float: left;
   }
+  
+  .address { float: right;}
   
 }
 
