@@ -102,6 +102,8 @@ header .address {
 .nav-top {
   margin: 0 auto;
   text-align: center;
+  width: 100%;
+  padding: 20px;
 }
 
 
@@ -119,7 +121,7 @@ header .address {
 /*nav image*/
 .nav-img {
   padding: 20px;
-  margin: auto 0;
+  margin: 0 auto;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
