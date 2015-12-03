@@ -62,7 +62,7 @@ body {
   font-family: "latienne-pro" sans-serif;
 }
 html { font-size: 10px; }
-header .logo { font-size: 5.5rem;}
+header .logo { font-size: 5rem;}
 header .nav-top { font-size: 1.4rem;}
 header .address { font-size: 1.5rem;}
 
@@ -75,7 +75,6 @@ header {
   font-family: "latienne-pro" sans-serif;;
   background-color: rgba(255,255,255,0.9);
   position: absolute;
-  max-width: 940px;
   padding-bottom: 5px;
   position: fixed;
   top: 0;
@@ -85,6 +84,7 @@ header .logo {
   text-align: center;
   padding-bottom: 10px;
   margin: 0 auto;
+  max-width: 940px;
 }
 header a {
   text-decoration: none;
