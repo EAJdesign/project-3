@@ -186,6 +186,16 @@ h3 {
     opacity:1;
 } */
 
+
+/*dinner-menu*/
+
+.dinner-container {
+  padding-top: 200px;
+}
+
+.menu-titles { color: #ff4539;}
+
+
 /*media screen*/
 
 @media screen and (min-width: 900px) {
