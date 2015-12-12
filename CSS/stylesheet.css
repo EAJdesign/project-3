@@ -62,30 +62,30 @@ body {
   font-family: "latienne-pro" sans-serif;
 }
 html { font-size: 10px; }
-header .logo { font-size: 5rem;}
-header .nav-top { font-size: 1.4rem;}
+header .logo { font-size: 3rem;}
+header .nav-top { font-size: 1.3rem;}
 header .address { font-size: 1.5rem;}
-
-
-
+p { font-size: 1.8rem;}
 
 /*header*/
 header {
   margin: 0 auto;
   font-family: "latienne-pro" sans-serif;;
   background-color: rgba(255,255,255,0.9);
-  position: absolute;
-  padding-bottom: 5px;
   position: fixed;
   top: 0;
   width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
 header .logo {
   text-align: center;
   padding-bottom: 10px;
   margin: 0 auto;
   max-width: 940px;
 }
+
 header a {
   text-decoration: none;
   color: black;
@@ -96,33 +96,54 @@ header .address {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 10px;
+  max-width: 300px;
 }
+
+
+/*intro quote*/
+
+.intro-quote {
+  padding-top: 200px;
+  margin: 0 auto;
+  font-style: italic;
+  max-width: 400px;
+  line-height: 25px;
+  text-align: center;
+  color: #ff4539;
+}
+
+h3 { 
+  font-weight: bold;
+  text-align: center;
+  color: #ff4539;
+}
+
 
 /* navigation */
 .nav-top {
   margin: 0 auto;
-  width: 100%;
-  padding: 20px;
+  text-align: center;
 }
 
 
 .nav-top ul {
-  max-width: 400px;
+  max-width: 600px;
   margin: 0 auto;
+  padding: 20px;
 }
 
 .nav-top li {
   display: inline-block;
-  padding: 40px 3%;
+  padding: 10px;
   margin: 0 auto;
 }
 
 /*nav image*/
 .nav-img {
-  padding: 20px;
+  padding-top: 10px;
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 700px;
+  min-width: 300px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -137,6 +158,10 @@ header .address {
 
 .nav-contact {
   padding: 10px;
+}
+
+.menus-nav {
+  padding-top: 180px;
 }
 
 
@@ -165,10 +190,10 @@ header .address {
 
 @media screen and (min-width: 900px) {
   .logo {
-    float: left;
-  }
+    float: left; 
+}
   
-  .address { float: right;}
+  .address { float: right; text-align: right; padding-right: 5px;}
   
 }
 
