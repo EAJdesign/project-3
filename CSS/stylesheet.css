@@ -162,6 +162,11 @@ h3 {
 
 .menus-nav {
   padding-top: 180px;
+  margin: 0 auto;
+  max-width: 700px;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -190,26 +195,38 @@ h3 {
 /*dinner-menu*/
 
 .dinner-container {
+  margin: auot 0;
+  text-align: center;
   padding-top: 200px;
+
+}
+
+.divide {
+  margin: auto 0;
+  padding: 10px;
 }
 
 .menu-titles { color: #ff4539;}
 
+/*our-story*/
+
+.our-story {
+  margin: auto 0;
+  padding-top: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 /*media screen*/
 
 @media screen and (min-width: 900px) {
-  .logo {
-    float: left; 
-}
+  .logo { float: left; }
   
-  .address { float: right; text-align: right; padding-right: 5px;}
-  
-}
+  .address { float: right; text-align: right; padding-right: 5px; }
 
-.menu_img {
-  width: 200px;
+  .menu_img { width: 200px; }
 
+  .our-story { min-width: 200px; max-width: 600px; text-align: left; margin: auto;}
 }
 
 
