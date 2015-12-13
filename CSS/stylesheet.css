@@ -66,6 +66,7 @@ header .logo { font-size: 3rem;}
 header .nav-top { font-size: 1.3rem;}
 header .address { font-size: 1.5rem;}
 p { font-size: 1.8rem;}
+h1 .menu-titles { font-size: 1.2rem;}
 
 /*header*/
 header {
@@ -218,6 +219,7 @@ h3 {
 .divide {
   margin: auto 0;
   padding: 10px;
+  text-align: center;
 }
 
 .menu-titles { 
