@@ -53,13 +53,13 @@ table {
 
 clearfix { overflow: auto; }
 
-* { font-family: "museo-slab" serif;}
+* { font-family: "latienne-pro",sans-serif;}
 
 
 
 /*typography*/
 body {
-  font-family: "museo-slab" serif;
+  font-family: "latienne-pro",sans-serif;
 }
 html { font-size: 10px; }
 header .logo { font-size: 3rem;}
@@ -71,7 +71,7 @@ h1 .menu-titles { font-size: 1.2rem;}
 /*header*/
 header {
   margin: 0 auto;
-  font-family: "museo-slab" serif;;
+  font-family: "latienne-pro",sans-serif;
   background-color: rgba(255,255,255,0.9);
   position: fixed;
   top: 0;
@@ -223,7 +223,7 @@ h3 {
 }
 
 .menu-titles { 
-  font-family: "museo-slab" serif; 
+  font-family: "latienne-pro",sans-serif;
   font-weight: bold; 
   color: #ff4539; 
   text-align: center;
