@@ -157,6 +157,10 @@ h3 {
   margin: 0 auto;
 }
 
+.phone {
+  font-size: 1rem;
+}
+
 /*nav image*/
 .nav-img {
   padding-top: 10px;
